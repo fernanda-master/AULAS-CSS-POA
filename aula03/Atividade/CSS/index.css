@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(212, 253, 248);
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(34, 111, 179);
+}
+
+.menu {
+    font-size: 27px;
+    background-color:aquamarine;
+    color: rgb(141, 53, 53);
+}
+
+.main-img > img {
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.icone-img {
+    width: 45px;
+    height: 45px;
+}
+
+footer {
+    text-align: center;
+}

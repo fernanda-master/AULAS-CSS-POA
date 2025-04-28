@@ -1,0 +1,36 @@
+ul {
+    text-align: center;
+    list-style-position: inside; /*Coloca o texto os marcadores alinhados dentro do enquadramento*/
+    list-style-type: lower-roman; /*estilos dos marcadores*/
+    /*list-style: ; tipo de marcadores A I 1 a*/
+}
+
+h1 {
+    background-color: aqua;
+    font-size: 30px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border: 2px dashed red;
+    box-shadow: 5px 5px 5px rgb(145, 167, 51);
+}
+
+h2 {
+    background-color: chocolate;
+    font-size: 30px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border-style: dotted; 
+    /* border: 6px dashed blue; */
+    border-top: 5px solid;
+    /* border-right: ;
+    border-bottom: ; */
+    border-width: 8px;  
+    /* border-color: ; */
+    /* mesma coisa que border: 6px dashed blue;
+    border-width: 8px;  
+     border-style: dotted; 
+     border-color: ;
+    */
+}

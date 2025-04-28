@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(92, 138, 197);
+    color: azure
+}
+
+h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+p {
+
+    text-align: center;
+    text-indent: 30px;
+}
+
+ol > li {
+    font-style: italic;
+}
+
+
+
+/* text-align realiza o alinhamento do texto, muda a posição do texto  */
+/* font-family muda a fonte */
+/* font-size muda o tamanho do texto */
+/* font-weight muda a largura do texto - evitar número para tamanho. use bold ou normal*/
+/* text-indent  */
+/* text-align alinhamento do texto geral da página */
+/* text-shadow efeito de sombra (esfumaçado ou espelhado) e alinhamento dela no texto */
+/* font-style muda o estilo do texto - normal, italic, oblique */
+/*  */
+
+
+
+

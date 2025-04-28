@@ -1,0 +1,51 @@
+html {
+    font-size: 62, 5%;
+}
+
+:root {
+    --cor-primaria: #E2FA3E;
+    --cor-secundaria: #BFFAE5;
+    --cor-terciaria: #FAEFD2;
+    --tam-fonte: 2rem;
+    --estilo-font: italic;
+}
+/* root cria um menu das suas cores personalizadas e 
+depois a chama pelo var() e é bom pra manutenção */
+
+div:hover {
+    /* aqui o hover vai aumentar o tamanho do icone ao passar o cursor */
+    width: 230px;
+    height: 230px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 1px solid yellow;
+    margin: 5px;
+}
+
+.box1 {
+    background-color: purple;
+    float: left;
+    font-style: var(--estilo-font);
+}
+
+.box2 {
+    background-color: var(--cor-primaria);
+    /* float: right; */
+    clear: both;
+    font-size: var(--tam-fonte);
+    
+}
+
+/* Convenção dependendo da linguagem de programação */
+/* camelCase */
+/* kebab-case  */
+/* PascalCase */
+/* snake_case */
+/* Não é igual pra todos não. Ex.: Python - camelCase */
+/* https://www.google.com/search?q=case+vari%C3%A1veis+programa%C3%A7%C3%A3o&sca_esv=3470b58f8723632d&rlz=1C1FKPE_enBR1126BR1126&ei=dXEPaNKcHrXT5OUPkZqyoQk&ved=0ahUKEwiSq_yn2vqMAxW1KbkGHRGNLJQQ4dUDCBA&uact=5&oq=case+vari%C3%A1veis+programa%C3%A7%C3%A3o&gs_lp=Egxnd3Mtd2l6LXNlcnAiHWNhc2UgdmFyacOhdmVpcyBwcm9ncmFtYcOnw6NvMgUQIRigATIFECEYoAEyBRAhGJ8FMgUQIRifBUjZJFDLA1jLInAAeAKQAQCYAeIBoAHvGKoBBjAuMjEuMbgBA8gBAPgBAZgCF6ACrhrCAgQQABhHwgIKEAAYgAQYsQMYCsICBRAAGIAEwgILEC4YgAQY0QMYxwHCAgcQABiABBgKwgIFEC4YgATCAgYQABgWGB7CAggQABgWGAoYHsICEBAuGIAEGBMYxwEYmAUYrwHCAgcQABiABBgTwgIEECEYFZgDAOIDBRIBMSBAiAYBkAYCkgcGMS4yMS4xoAeUkgGyBwYwLjIxLjG4B6Qa&sclient=gws-wiz-serp */
+/* https://www.alura.com.br/artigos/convencoes-nomenclatura-camel-pascal-kebab-snake-case?srsltid=AfmBOorYT1vfFmFguI_JLTfRREqL3M-mORMTpa_xonSAybjVOnvApz-A */

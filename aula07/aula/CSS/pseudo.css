@@ -1,0 +1,53 @@
+* {
+    font-size: 62, 5%;
+    /* 10px */
+}
+
+p {
+    font-size: 1.6rem;
+    /* 16p */
+
+}
+
+a:active {
+    color: rgb(2, 255, 2);
+}
+/* a:active muda a cor só quando clica - apenas para links */
+
+
+a:visited {
+    color: rgb(255, 145, 0);
+}
+/* muda a cor do link visitado */
+
+
+textarea:focus {
+    background-color: cadetblue;
+}
+
+input:focus {
+    color: brown;
+    background-color: aquamarine;
+}
+
+nav {
+    background-color: #ffecd5;
+    height: 10vh;
+    text-align: center;
+    font-size: 1.6em;
+}
+
+nav > a {
+    line-height: 250%;
+    margin: 25px;
+    color:rgb(69, 138, 196) ;
+    text-decoration: none; /*tira a linha do link do menu /= de border-bottom*/
+    padding: 15px;
+}
+
+nav > a:hover {
+    background-color: darkgreen;
+    color: aqua;
+    border-radius: 5px;
+    /* efeito para menu - passa o mouse e muda de cor */
+}

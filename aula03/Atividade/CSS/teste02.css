@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(191, 243, 243);
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(34, 111, 179);
+}
+
+.tam-img {
+    width: 30px;
+    height: 30px;
+}
+
+.naveg {
+    background-color: aquamarine;
+    font-size: 27px;
+    color: brown;
+}
+
+.icone-img {
+    width: 45px;
+    height: 45px;
+}
+
+footer {
+    text-align: center;
+}
+
+h2 {
+    font-size: 27px;
+    text-indent: 4%;
+}

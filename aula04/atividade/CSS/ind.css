@@ -1,0 +1,19 @@
+
+
+img {
+    width: 350px;
+    height: 250px;
+}
+
+figure {
+    margin: 0px;
+    text-align: center;
+    border: 1px;
+    border-style: solid;
+    border-color: brown;
+    background-color: bisque;
+}
+
+figcaption {
+    text-align: center;
+}

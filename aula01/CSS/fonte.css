@@ -1,0 +1,21 @@
+body {
+    background-color: salmon;
+    color: white
+} 
+
+
+
+
+/* bloco é o que está entre chaves { } */
+
+/* seletor (h1, body, etc) é o lugar onde vou aplicar a formatação */
+/* background-color <- propriedade */
+/* red <- valor */
+/* background-color: salmon; <- declaração */
+
+/* color: vai mudar todas as cores das letras dentro do body */
+
+/* html rapper é uma extensão que encapsula a farse selecionada */
+
+
+

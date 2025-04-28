@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(206, 241, 241);
+}
+
+.corFundo {
+    background-color: rgb(247, 143, 247);
+    color: rgb(61, 64, 243);
+}
+
+.outraCorFundo {
+    background-color: chartreuse;
+    color: brown;
+}
+
+.outraFonte {
+    font-size: 30px;
+}
+
+h1.titulo {
+    background-color: black;
+    color: beige;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#jogo {
+    list-style: none; 
+    text-align: center;
+}

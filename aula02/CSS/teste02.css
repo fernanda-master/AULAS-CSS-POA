@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(153, 175, 216);
+}
+
+h1 {
+    font-size: 30px;
+    text-shadow: 10px 10px 2px rgb(128, 156, 153);
+}
+
+h2 {
+    font-size: 25px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+    text-align: 15px;
+}

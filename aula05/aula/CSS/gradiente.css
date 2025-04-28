@@ -1,0 +1,42 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(to top, rgb(3, 111, 212) 15%, rgb(167, 223, 255));
+}
+
+figure {
+    width: 50px;
+    height: 70px;
+    text-align: center;
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    /* box-shadow: 15px 15px 15px rgb(255, 0, 234); */
+
+    filter: drop-shadow(15px 15px 10px rgb(187, 53, 13));
+    /* Dá efeito sombreado na própria figura  */
+}
+
+
+
+
+
+
+
+
+/* podemos escolher nos ângulos do gradiente:
+   background-image: linear-gradient(to top,
+
+também pode ser através de porcentagem:
+    background-image: linear-gradient(rgb(3, 111, 212) 85%, rgb(167, 223, 255));
+*/
+
+/* box-shadow: 15px 15px 15px rgb(255, 0, 234); dá efeito sombreado na imagem de acordo com a imagem*/
+
+/*filter: drop-shadow(15px 15px 10px rgb(187, 53, 13));Dá efeito sombreado na própria figura sem fundo. acompanha a estrutura corporal  */
+
+/* https://cssgradient.io/ */
+/* https://mdigi.tools/gradient-generator/ */
+
+/* https://github.com/zesantos-ctrl/mapa-mental */
