@@ -1,0 +1,84 @@
+body {
+    background-color: silver;
+}
+
+@media print and (max-width: 900px) {
+    h1 {
+        color: red;
+        font-size: 70px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    h1 {
+        color: blue;
+        font-size: 50px;
+    }
+}
+
+
+@media (max-width:800px) {
+    h1 {
+        color: yellow;
+        font-size: 100px;
+    }
+}
+
+@media (orientation: landscape) {
+    /* regra especifica para orientação retrato/paisagem*/
+    h3 {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    h4 {
+        color:green;
+    }
+}
+
+@media (min-width: 600px) and (max-width:800px) {
+    body {
+        background-color: royalblue;
+    }
+}
+
+
+/* 
+@media é usada em CSS para aplicar estilos condicionalmente, 
+ou seja, somente quando certas condições forem verdadeiras 
+
+Dentro de uma @media, o screen é um tipo de mídia (media type). 
+Ele indica que os estilos devem ser aplicados em telas
+
+Outros tipos de mídia incluem:
+
+Tipo	Significado
+@media print:	Aplicado na impressão (ex: ao imprimir uma página)
+@media screen:	Aplicado em telas (monitores, celulares, etc)
+@media speech:	Usado por leitores de tela que "falam" o conteúdo
+
+@media screen and (usa unid de medida: max-width e min-width) {
+}
+
+Só o @media pega em todos
+*/
+
+
+/* 
+Tabela de Breakpoints Comuns:
+Tamanho da Tela
+Largura Máxima do Contêiner
+| Extra Pequeno (XS) | Menor que 576px
+| Pequeno (SM) | 576px a 767px
+| Médio (MD) | 768px a 991px
+| Grande (LG) | 992px a 1199px
+| Extra Grande (XL) | 1200px e acima
+
+Pontos de interrupção
+Classe de tamanho	Pontos de interrupção	Tamanho típico da tela
+Pequeno	até 640px	20" a 65"
+Médio	641 - 1007px	7" a 12"
+Grande	1008px e acima	13" e acima
+*/

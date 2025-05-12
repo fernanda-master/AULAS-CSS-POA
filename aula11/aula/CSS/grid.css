@@ -1,0 +1,64 @@
+.conteiner {
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "header header header header"
+    "main main main aside"
+    "main main main aside"
+    "main main main aside"
+    "footer footer footer footer"
+    ;
+}
+
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+.aside {
+    grid-area: aside;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+
+.cor {
+    background-color: rgb(4, 112, 13);
+}
+
+.cor2 {
+    background-color: darksalmon;
+}
+
+.cor3 {
+    background-color: rgb(235, 219, 4);
+}
+
+.cor4 {
+    background-color: rgb(131, 133, 136);
+}
+
+/* 
+    grid-template-columns: ; layout de colunas - verticais
+    grid-template-rows: ; layout de linhas - horizontais
+
+    valores desta propriedade:
+    ** grid-template-columns: repeat(3, 1fr);
+    repeat (n° de colunas, pedaço do espaço disponível em fração)
+
+    **grid-template-columns: 50px 100px 150px 200px fr;
+    espaço personalizado e especificado por nós em pixel
+
+    **grid-template-columns: 1fr 1fr 2fr;
+    espaço personalizado e especificado por nós em fração
+    MAIS INDICADO UTILIZAR
+
+    https://cssgridgarden.com/ (treinar grid)
+*/

@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+}
+
+.conteiner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    background-color: rgb(4, 112, 13);
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-aside {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.main {
+    background-color: darksalmon;
+    height: 100px;
+    width: 80%;
+
+}
+
+.aside {
+    background-color: rgb(235, 219, 4);
+    height: 100px;
+    width: 20%;
+}
+
+.footer {
+    background-color: rgb(131, 133, 136);
+    height: 100px;
+
+
+}
+

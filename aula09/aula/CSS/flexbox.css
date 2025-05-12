@@ -1,0 +1,40 @@
+.container {
+    height: 600px;
+    width: 800px;
+    border: 1px solid black;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    direction: ltr;
+    /*direction: rtl; altera a direção do main axis e padrão de escrita e o conteúdo de dentro da caixa */
+    /* flex-wrap: ajuda na não compressao dos elementos*/
+    flex-wrap: wrap; 
+
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+
+.item1 {
+    background-color: green;
+    order: 3;
+}
+
+.item2 {
+    background-color: blue;
+}
+
+.item3 {
+    background-color: pink;
+}
+
+/*direction: rtl;  ou justify-content: e align-content:  altera a direcção do main axis */
+
+
+/* justify-content: center;
+    align-content: center; */

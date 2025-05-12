@@ -1,0 +1,56 @@
+.menuNav {
+    display: flex;
+    /*espaçamento e tamanho do menu*/
+    flex-direction: column;
+    background-color: green;
+    height: 150px;
+    width: 600px;
+    flex-flow: row-reverse wrap;
+    justify-content: flex-end;
+    justify-content: end;
+    justify-content: space-evenly;
+    /*separa os itens do menu em blocos de cores, ao invés de ser contínuo e centraliza*/
+    align-items: center; 
+    /* center centraliza os itens no meio do menu navegação e o stretch estica o background e o texto*/
+}
+
+.menu {
+    background-color: silver;
+    height: 50px;
+    width: 100px;
+    text-decoration: line-through;
+}
+
+
+.menu1 {
+    /* flex-shrink: 2;  */
+    order: 3;
+    
+}
+
+/*container é o espaço que a gente para o menu*/
+
+/*wrap quebra o espaço entre as caixinhas serve para grandes conteúdos */
+
+/* 
+    justify-content: space-evenly;
+    separa os itens do menu em blocos de cores, ao invés de ser contínuo e centraliza
+    
+    align-items: center; 
+    center centraliza os itens no meio do menu navegação e o stretch estica o background e o texto
+
+    flex-shrink aumenta a proporção e o flex-grow aumenta
+*/
+
+/* 
+ lista de jogos de css
+https://mastery.games/flexboxzombies/
+
+https://gridcritters.com/ (novo)
+
+https://mastery.games/serviceworkies/
+
+http://www.flexboxdefense.com/
+
+https://flukeout.github.io/
+*/
