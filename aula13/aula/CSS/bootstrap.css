@@ -1,0 +1,10 @@
+* {
+    margin: 10px;
+}
+
+.estInput {
+    border-bottom: 12px;
+    background-color: rosybrown;
+    height: 50px;
+    width: 100px;
+}

@@ -1,0 +1,61 @@
+html {
+    background-size: 1rem;
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    p {
+        font-size: 1.5em;
+        text-align: center;
+        font-family: Arial;
+    }
+}
+
+@media (max-width: 480px) {
+        img {
+            display: none;
+        }
+    }
+
+@media (min-width: 1025px) {
+    p {
+        text-align: justify;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+        color: green;
+    }
+}
+
+/* MIN = começo da regra MAX= fim da regra */
+
+
+/* 
+
+COLINHA
+@media (min-width: 481px) and (max-width: 768px) {
+    p {
+        font-size: 1.5em;
+        text-align: center;
+        font-family: Arial, sans-serif;
+    }
+}
+@media (max-width: 480px) {
+    img {
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) {
+    p {
+        text-align: justify;
+    }
+    h1, h2 {
+        text-align: center;
+        color: green;
+    }
+}
+
+*/
